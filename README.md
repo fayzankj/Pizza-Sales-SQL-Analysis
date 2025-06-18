@@ -1,19 +1,87 @@
-# Pizza-Sales-SQL-Analysis
-This project involves a comprehensive analysis of a pizza sales dataset using SQL. The analysis is divided into three levels: basic, intermediate, and advanced, each containing a series of SQL queries designed to answer specific questions about the dataset.
+# 🍕 Pizza Sales SQL Analysis
+This project presents a complete end-to-end SQL analysis of a pizza sales dataset, focused on answering real-world business questions through structured query logic.
+It covers basic to advanced SQL concepts, showcasing not just technical skills but the ability to derive actionable insights from raw data.
 
-## Project Highlights:
-Basic SQL Queries: Includes simple data retrieval, filtering, and sorting operations.
-Intermediate SQL Queries: Covers aggregations, groupings, and joins to derive more meaningful insights from the data.
-Advanced SQL Queries: Involves complex joins, subqueries, window functions, and performance optimization techniques.
+## 📊 Project Overview
+The project is divided into three progressive tiers:
 
-## Dataset:
-The dataset used in this project contains information about pizza sales, including details on orders, customers, and products. It provides a rich source of data to practice and showcase various SQL skills.
+🔹 Basic SQL
 
-## Objectives:
-To demonstrate proficiency in SQL by solving real-world data challenges.
-To explore different SQL functions and techniques to extract, manipulate, and analyze data.
+Data exploration: SELECT, WHERE, ORDER BY
 
-## Repository Structure:
-### SQL Scripts: Organized into Basic, Intermediate, and Advanced—containing SQL queries for each set of questions.
-### Questions PDF: The original PDF file with the questions posed for the analysis.
-### Pizza Sales Dataset: The dataset used for the queries, provided in a CSV format.
+Simple filters and sorting
+
+Initial business questions
+
+🔸 Intermediate SQL
+
+Aggregation using COUNT, SUM, AVG
+
+GROUP BY, JOINs across multiple tables
+
+Insights on revenue, order frequency, popular items
+
+🔺 Advanced SQL
+
+Window functions (RANK, SUM() OVER, etc.)
+
+CTEs for modular and readable logic
+
+Cumulative revenue, category breakdowns, percent contributions
+
+## 🧠 Dataset Details
+
+The dataset includes:
+
+orders — order timestamps and IDs
+
+order_details — quantities and pizza IDs per order
+
+pizzas — pricing, size, and type mapping
+
+pizza_types — category and name of each pizza
+
+It simulates sales data for a mid-sized pizza chain and provides an ideal foundation to practice real-world analytics.
+
+## 🎯 Project Goals
+✅ Demonstrate SQL proficiency in solving real business questions
+
+✅ Understand and manipulate relational databases
+
+✅ Derive data-driven insights from a structured dataset
+
+✅ Build a portfolio-ready project using only SQL — no Excel, no Python
+
+## 📌 Key Insights Generated
+Top 5 most ordered pizzas by quantity and revenue
+
+Revenue distribution by category, size, and time
+
+Cumulative revenue trends
+
+Average pizzas ordered per day
+
+Category-wise % contribution to total revenue
+
+💡 All results calculated exclusively using raw SQL (no BI tool dependencies).
+
+## 📁 Repository Structure
+File / Folder	Description
+Basic Questions.sql	---  Contains foundational queries: selection, filtering, sorting
+
+Intermediate Questions.sql ---	Covers joins, aggregations, groupings, and mid-level analysis
+
+Advanced Questions.sql	--- Includes window functions, CTEs, and business-level insights
+
+Questions.pdf	--- Document listing all business questions solved in this project
+
+pizza_sales_dataset.zip	--- The dataset folder in compressed format, containing multiple CSVs for tables
+
+## 📬 Connect
+If you're a recruiter, data science enthusiast, or someone reviewing this for collaboration — feel free to connect!
+
+💼 Author: Faizan Ahmed Khan
+
+🎯 Focus: Data Analytics | SQL | Python | AI | Research
+
+🇵🇰 Location: Pakistan | 🌍 Open to remote
